@@ -33,6 +33,8 @@ namespace TestRunner {
                 runner.OnTestStarting = OnTestStarting;
                 runner.OnTestFailed = OnTestFailed;
                 runner.OnTestSkipped = OnTestSkipped;
+                runner.OnTestPassed = OnTestPassed;
+                runner.OnDiagnosticMessage = OnDiagnosticMessage;
 
                 Console.WriteLine("Discovering...");
                 runner.Start(typeName);
@@ -41,6 +43,14 @@ namespace TestRunner {
                 finished.Dispose();
 
                 return result;
+            }
+        }
+
+        private static void OnDiagnosticMessage(DiagnosticMessageInfo info)
+        {
+            lock(consoleLock)
+            {
+                Console.WriteLine(info.Message);
             }
         }
 
@@ -64,7 +74,6 @@ namespace TestRunner {
                 Console.ForegroundColor = ConsoleColor.Blue;
 
                 Console.WriteLine($"[STARTING TEST] {info.TestDisplayName}");
-                Console.WriteLine($"{info.MethodName}");
 
                 Console.ResetColor();
             }
@@ -96,6 +105,15 @@ namespace TestRunner {
             }
         }
 
-
+        private static void OnTestPassed(TestPassedInfo info)
+        {
+            lock (consoleLock)
+            {
+                Console.ForegroundColor = ConsoleColor.Green;
+                Console.WriteLine($"[PASS] {info.TestDisplayName}");
+                if (info.Output != "") Console.WriteLine(info.Output);
+                Console.ResetColor();
+            }
+        }
     }
 }
