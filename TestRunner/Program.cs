@@ -2,8 +2,8 @@
 using System.Threading;
 using Xunit.Runners;
 
-namespace TestRunnerSample
-{
+namespace TestRunner { 
+
     class Program
     {
         // We use consoleLock because messages can arrive in parallel, so we want to make sure we get
@@ -57,6 +57,18 @@ namespace TestRunnerSample
 
             finished.Set();
         }
+        static void OnTestStarting(TestStartingInfo info)
+        {
+            lock (consoleLock)
+            {
+                Console.ForegroundColor = ConsoleColor.Blue;
+
+                Console.WriteLine($"[STARTING TEST] {info.TestDisplayName}");
+                Console.WriteLine($"{info.MethodName}");
+
+                Console.ResetColor();
+            }
+        }
 
         static void OnTestFailed(TestFailedInfo info)
         {
@@ -84,17 +96,6 @@ namespace TestRunnerSample
             }
         }
 
-        static void OnTestStarting(TestStartingInfo info)
-        {
-            lock (consoleLock)
-            {
-                Console.ForegroundColor = ConsoleColor.Blue;
 
-                Console.WriteLine($"[RUNNING TEST] {info.TestCollectionDisplayName}: {info.TestDisplayName}");
-                Console.WriteLine($"{info.MethodName}");
-
-                Console.ResetColor();
-            }
-        }
     }
 }
