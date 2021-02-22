@@ -1,0 +1,22 @@
+//The .json config file does not have to be part of the binaries folder that you upload to Synthetics. It is passed as a separate parameter in the deploy command. But if you want to deploy Synthetic jobs from your official build output, the config file needs to be part of that output. Copying it in the job project, and including it in the binaries folder, is the easiest way to achieve that and does no harm.
+
+{
+  "SyntheticJobGroup": {
+    "Name": "GenevaLibrary",
+    "SyntheticJobs": [
+      {
+        "ExecutionIntervalSeconds": 60,
+        "JobName": "GenevaLibrary",
+        "AssemblyFilePath": "GenevaLibrary.dll",
+        "FullyQualifiedClassName": "GenevaLibrary.SimpleSyntheticJob",
+        "SyntheticJobInstances": [
+          {
+            "InstanceNamePrefix": "HelloWorld",
+            "Regions": [ "USWest2" ]
+          }
+        ]
+      }
+    ]
+  }
+}
+ 

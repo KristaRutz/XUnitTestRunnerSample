@@ -26,11 +26,11 @@ namespace TestRunnerSample
 
             var testAssembly = args[0];
             var typeName = args.Length == 2 ? args[1] : null; ;
-
             using (var runner = AssemblyRunner.WithAppDomain(testAssembly))
             {
                 runner.OnDiscoveryComplete = OnDiscoveryComplete;
                 runner.OnExecutionComplete = OnExecutionComplete;
+                runner.OnTestStarting = OnTestStarting;
                 runner.OnTestFailed = OnTestFailed;
                 runner.OnTestSkipped = OnTestSkipped;
 
@@ -88,6 +88,8 @@ namespace TestRunnerSample
         {
             lock (consoleLock)
             {
+                Console.ForegroundColor = ConsoleColor.Blue;
+
                 Console.WriteLine($"[RUNNING TEST] {info.TestCollectionDisplayName}: {info.TestDisplayName}");
                 Console.WriteLine($"{info.MethodName}");
 
