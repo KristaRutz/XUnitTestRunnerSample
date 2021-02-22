@@ -1,0 +1,2 @@
+ ~/source/repos/TestRunnerSample/Geneva.Synthetics.Tools.RunSynthetics.1.0.1493.1/lib/net472 (redo)
+$ ./RunSynthetics.exe -a "C:\Users\v-kristarutz\source\repos\TestRunnerSample\GenevaLibrary\bin\Debug" -c "C:\Users\v-kristarutz\source\repos\TestRunnerSample\GenevaLibrary\demosynthetic.json" -j GenevaLibrary -i "HelloWorld" --debug true

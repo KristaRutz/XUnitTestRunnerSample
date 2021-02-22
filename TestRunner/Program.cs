@@ -1,14 +1,18 @@
 ﻿using System;
 using System.Threading;
 using Xunit.Runners;
+using Microsoft.Extensions.Logging;
 
-namespace TestRunner { 
+namespace TestRunner
+{
 
     class Program
     {
         // We use consoleLock because messages can arrive in parallel, so we want to make sure we get
         // consistent console output.
         static object consoleLock = new object();
+
+        static ILogger logger;
 
         // Use an event to know when we're done
         static ManualResetEvent finished = new ManualResetEvent(false);

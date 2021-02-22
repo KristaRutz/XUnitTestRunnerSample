@@ -1,0 +1,369 @@
+
+NORTHAMERICA+v-kristarutz@MININT-F5UHQAH MINGW64 ~
+$ ls
+'3D Objects'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ Documents/
+ Downloads/
+ Favorites/
+ Links/
+'Local Settings'@
+ Music/
+'My Documents'@
+ NTUSER.DAT
+ NTUSER.DAT{f26ec89c-3a28-11eb-8ebc-87358cf2e1fd}.TM.blf
+ NTUSER.DAT{f26ec89c-3a28-11eb-8ebc-87358cf2e1fd}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{f26ec89c-3a28-11eb-8ebc-87358cf2e1fd}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+ OneDrive/
+'OneDrive - Microsoft'/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+'Start Menu'@
+ Templates@
+ Videos/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ scoop/
+ source/
+
+NORTHAMERICA+v-kristarutz@MININT-F5UHQAH MINGW64 ~
+$ cs source/repos/
+bash: cs: command not found
+
+NORTHAMERICA+v-kristarutz@MININT-F5UHQAH MINGW64 ~
+$ cd source/repos/
+
+NORTHAMERICA+v-kristarutz@MININT-F5UHQAH MINGW64 ~/source/repos
+$ ls
+%28Archived%29%20Retail-Services-Recommendations/  WalkthroughSyntheticJob/
+OneCert/                                           archived/
+
+NORTHAMERICA+v-kristarutz@MININT-F5UHQAH MINGW64 ~/source/repos/TestRunnerSample
+ (redo)
+$  NuGet.exe Install Geneva.Synthetics.Tools.RunSynthetics -source https://msazu
+re.pkgs.visualstudio.com/_packaging/synthetics/nuget/v3/index.json
+Feeds used:
+  https://msazure.pkgs.visualstudio.com/_packaging/synthetics/nuget/v3/index.jso
+n
+
+Installing package 'Geneva.Synthetics.Tools.RunSynthetics' to 'C:\Users\v-krista
+rutz\source\repos\TestRunnerSample'.
+MSBuild auto-detection: using msbuild version '16.8.3.61104' from 'C:\Program Fi
+les (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Current\bin'.
+    [CredentialProvider]VstsCredentialProvider - Acquired bearer token using 'AD
+AL Windows Integrated Authentication'
+    [CredentialProvider]VstsCredentialProvider - Attempting to exchange the bear
+er token for an Azure DevOps session token.
+  GET https://msazure.pkgs.visualstudio.com/_packaging/39ca2074-d44b-444f-af83-2
+13473eea962/nuget/v3/registrations2-semver2/geneva.synthetics.tools.runsynthetic
+s/index.json
+  OK https://msazure.pkgs.visualstudio.com/_packaging/39ca2074-d44b-444f-af83-21
+3473eea962/nuget/v3/registrations2-semver2/geneva.synthetics.tools.runsynthetics
+/index.json 2887ms
+
+
+Attempting to gather dependency information for package 'Geneva.Synthetics.Tools
+.RunSynthetics.1.0.1493.1' with respect to project 'C:\Users\v-kristarutz\source
+\repos\TestRunnerSample', targeting 'Any,Version=v0.0'
+Gathering dependency information took 50 ms
+Attempting to resolve dependencies for package 'Geneva.Synthetics.Tools.RunSynth
+etics.1.0.1493.1' with DependencyBehavior 'Lowest'
+Resolving dependency information took 0 ms
+Resolving actions to install package 'Geneva.Synthetics.Tools.RunSynthetics.1.0.
+1493.1'
+Resolved actions to install package 'Geneva.Synthetics.Tools.RunSynthetics.1.0.1
+493.1'
+Retrieving package 'Geneva.Synthetics.Tools.RunSynthetics 1.0.1493.1' from 'http
+s://msazure.pkgs.visualstudio.com/_packaging/synthetics/nuget/v3/index.json'.
+  GET https://msazure.pkgs.visualstudio.com/_packaging/39ca2074-d44b-444f-af83-2
+13473eea962/nuget/v3/flat2/geneva.synthetics.tools.runsynthetics/1.0.1493.1/gene
+va.synthetics.tools.runsynthetics.1.0.1493.1.nupkg
+  OK https://msazure.pkgs.visualstudio.com/_packaging/39ca2074-d44b-444f-af83-21
+3473eea962/nuget/v3/flat2/geneva.synthetics.tools.runsynthetics/1.0.1493.1/genev
+a.synthetics.tools.runsynthetics.1.0.1493.1.nupkg 526ms
+Installing Geneva.Synthetics.Tools.RunSynthetics 1.0.1493.1.
+Adding package 'Geneva.Synthetics.Tools.RunSynthetics.1.0.1493.1' to folder 'C:\
+Users\v-kristarutz\source\repos\TestRunnerSample'
+Added package 'Geneva.Synthetics.Tools.RunSynthetics.1.0.1493.1' to folder 'C:\U
+sers\v-kristarutz\source\repos\TestRunnerSample'
+Successfully installed 'Geneva.Synthetics.Tools.RunSynthetics 1.0.1493.1' to C:\
+Users\v-kristarutz\source\repos\TestRunnerSample
+Executing nuget actions took 2.28 sec
+
+NORTHAMERICA+v-kristarutz@MININT-F5UHQAH MINGW64 ~/source/repos/TestRunnerSample (redo)
+$ cd Geneva.Synthetics.Tools.RunSynthetics.1.0.1493.1/
+
+NORTHAMERICA+v-kristarutz@MININT-F5UHQAH MINGW64 ~/source/repos/TestRunnerSample/Geneva.Synthetics.Tools.RunSynthetics.1.0.1493.1 (redo)
+$ cd lib/
+
+NORTHAMERICA+v-kristarutz@MININT-F5UHQAH MINGW64 ~/source/repos/TestRunnerSample/Geneva.Synthetics.Tools.RunSynthetics.1.0.1493.1/lib (redo)
+$ ls
+net472/
+
+NORTHAMERICA+v-kristarutz@MININT-F5UHQAH MINGW64 ~/source/repos/TestRunnerSample/Geneva.Synthetics.Tools.RunSynthetics.1.0.1493.1/lib (redo)
+$ cd net472/
+
+NORTHAMERICA+v-kristarutz@MININT-F5UHQAH MINGW64 ~/source/repos/TestRunnerSample/Geneva.Synthetics.Tools.RunSynthetics.1.0.1493.1/lib/net472 (redo)
+$ ls
+Bond.Attributes.dll*
+Bond.IO.dll*
+Bond.JSON.dll*
+Bond.Reflection.dll*
+Bond.dll*
+CommandLine.dll*
+IfxEvents.dll*
+IfxEvents.lib
+IfxEvents_x86.dll*
+IfxEvents_x86.lib
+IfxHealth.dll*
+IfxHealth.lib
+IfxHealth_x86.dll*
+IfxHealth_x86.lib
+IfxMetrics.dll*
+IfxMetrics.lib
+IfxMetrics_x86.dll*
+IfxMetrics_x86.lib
+Microsoft.Azure.Geneva.Synthetics.Configuration.Contracts.dll*
+Microsoft.Azure.Geneva.Synthetics.Configuration.dll*
+Microsoft.Azure.Geneva.Synthetics.Contracts.dll*
+Microsoft.Azure.Geneva.Synthetics.Shared.Validation.dll*
+Microsoft.Azure.Geneva.Synthetics.Shared.dll*
+Microsoft.Cloud.InstrumentationFramework.Events.dll*
+Microsoft.Cloud.InstrumentationFramework.Health.dll*
+Microsoft.Cloud.InstrumentationFramework.Metrics.dll*
+Microsoft.Extensions.Caching.Abstractions.dll*
+Microsoft.Extensions.Configuration.Abstractions.dll*
+Microsoft.Extensions.Configuration.Binder.dll*
+Microsoft.Extensions.Configuration.dll*
+Microsoft.Extensions.DependencyInjection.Abstractions.dll*
+Microsoft.Extensions.Logging.Abstractions.dll*
+Microsoft.Extensions.Logging.dll*
+Microsoft.Extensions.Options.ConfigurationExtensions.dll*
+Microsoft.Extensions.Options.dll*
+Microsoft.Extensions.Primitives.dll*
+Newtonsoft.Json.dll*
+Optional.dll*
+RunSynthetics.exe*
+RunSynthetics.exe.config
+System.Buffers.dll*
+System.Diagnostics.DiagnosticSource.dll*
+System.Memory.dll*
+System.Numerics.Vectors.dll*
+System.Runtime.CompilerServices.Unsafe.dll*
+System.Security.Principal.Windows.dll*
+Tfx.dll*
+Tfx.lib
+TfxPerfCounter.man
+Tfx_x86.dll*
+Tfx_x86.lib
+concrt140.dll*
+msvcp140.dll*
+vccorlib140.dll*
+vcruntime140.dll*
+
+NORTHAMERICA+v-kristarutz@MININT-F5UHQAH MINGW64 ~/source/repos/TestRunnerSample/Geneva.Synthetics.Tools.RunSynthetics.1.0.1493.1/lib/net472 (redo)
+$ RunSynthetics.exe
+bash: RunSynthetics.exe: command not found
+
+NORTHAMERICA+v-kristarutz@MININT-F5UHQAH MINGW64 ~/source/repos/TestRunnerSample/Geneva.Synthetics.Tools.RunSynthetics.1.0.1493.1/lib/net472 (redo)
+$ ./RunSynthetics.exe
+RunSynthetics 1.0.01493.0001-c399e94f
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+ERROR(S):
+  Required option 'a, assemblyFolder' is missing.
+  Required option 'c, configFilePath' is missing.
+  Required option 'j, jobName' is missing.
+  Required option 'i, instanceNamePrefix' is missing.
+
+  -a, --assemblyFolder        Required. Folder location where assembly files are
+
+                              present.
+
+  -c, --configFilePath        Required. Path to the config file.
+
+  -j, --jobName               Required. Name of Synthetic Job.
+
+  -i, --instanceNamePrefix    Required. NamePrefix of Synthetic Job Instance.
+
+  -r, --region                Region of Synthetic Job Instance.
+
+  -d, --debug                 Flag to indicate if program should wait for
+                              debugger to be attached
+
+  -w, --wait                  Flag to wait for a Key Press before exiting.
+
+  --help                      Display this help screen.
+
+  --version                   Display version information.
+
+
+NORTHAMERICA+v-kristarutz@MININT-F5UHQAH MINGW64 ~/source/repos/TestRunnerSample/Geneva.Synthetics.Tools.RunSyntheticunSynthetics.1.0.1493.1/lib/net472 (redo)
+$ ./RunSynthetics.exe -a "C:\Users\v-kristarutz\source\repos\TestRunnerSample\GenevaLibrary\bin\Debug" -c "C:\Users\v"C:\Users\v-kristarutz\source\repos\TestRunnerSample\GenevaLibrary\demosynthetic.json" -j SimpleSyntheticJ "Held" --dob -i "HelloWorld" --debug true
+Attach debugger to process name: RunSynthetics and Id: 26520
+
+NORTHAMERICA+v-kristarutz@MININT-F5UHQAH MINGW64 ~/source/repos/TestRunnerSample/Geneva.Synthetics.Tools.RunSynthetics.1.0.1493.1/lib/net472 (redo)
+ruevaLibrary\demosynthetic.json" -j SimpleSyntheticJob -i "HelloWorld" --debug tr
+Attach debugger to process name: RunSynthetics and Id: 26752
+Debugger attached
+System.ArgumentException: Job 'SimpleSyntheticJob' doesn't exist in job group 'GenevaLibrary'.
+Parameter name: jobName
+   at Microsoft.Azure.Geneva.Synthetics.Configuration.SyntheticJobGroupConfig.GetJob(String jobName)
+   at Microsoft.Azure.Geneva.Synthetics.RunSynthetics.RunSyntheticJob.<RunSyntheticJobLocallyAsync>d__1.Mo
+veNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Azure.Geneva.Synthetics.RunSynthetics.Program.Main(String[] args)
+$ ./RunSynthetics.exe -a "C:\Users\v-kristarutz\source\repos\TestRunnerSample\GenevaLibrary\bin\Debug" -c "C:\Users\v-kristarutz\source\repos\TestRunnerSample\GenevaLibrary\demosynthetic.json" -j GenevaLibrary -i "HelloWorld" --debug true
+Attach debugger to process name: RunSynthetics and Id: 20912
+Debugger attached
+Warning: Assembly binding redirects mismatch. Please copy assembly bindings from: "C:\Users\v-kristarutz\source\repos\TestRunnerSample\Ge
+nevaLibrary\bin\Debug\GenevaLibrary.dll.config", and merge them with the existing binding redirects at: "C:\Users\v-kristarutz\source\rep
+os\TestRunnerSample\Geneva.Synthetics.Tools.RunSynthetics.1.0.1493.1\lib\net472\RunSynthetics.exe.config" to avoid any errors in executio
+n.
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.IO.FileNotFoundExcepti
+on: Could not load file or assembly 'Microsoft.ApplicationInsights, Version=2.12.0.21496, Culture=neutral, PublicKeyToken=31bf3856ad364e3
+5' or one of its dependencies. The system cannot find the file specified.
+   at Microsoft.Azure.Geneva.Synthetics.Logging.OneDS.SyntheticsTelemetryConfigurationFactory.CreateTelemetryConfiguration(ISyntheticsEnv
+ironment environment, String metricNamespace, String metricAccount)
+   at Microsoft.Azure.Geneva.Synthetics.Logging.OneDS.MultiInstanceSyntheticsTelemetryClientCache.CreateClientInternal(ISyntheticsEnviron
+ment environment, String metricNamespace, String metricAccount)
+   at System.Collections.Concurrent.ConcurrentDictionary`2.GetOrAdd(TKey key, Func`2 valueFactory)
+   at GenevaLibrary.SimpleSyntheticJob..ctor(ISyntheticsEnvironment environment) in C:\Users\v-kristarutz\source\repos\TestRunnerSample\G
+enevaLibrary\SimpleSyntheticJob.cs:line 18
+   --- End of inner exception stack trace ---
+   at System.RuntimeMethodHandle.InvokeMethod(Object target, Object[] arguments, Signature sig, Boolean constructor)
+   at System.Reflection.RuntimeConstructorInfo.Invoke(BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)
+   at System.RuntimeType.CreateInstanceImpl(BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] activat
+ionAttributes, StackCrawlMark& stackMark)
+   at System.Activator.CreateInstance(Type type, BindingFlags bindingAttr, Binder binder, Object[] args, CultureInfo culture, Object[] ac
+tivationAttributes)
+   at System.Activator.CreateInstance(Type type, Object[] args)
+   at Microsoft.Azure.Geneva.Synthetics.RunSynthetics.SyntheticJobLoader.LoadSyntheticJob(String jobGroupName, ISyntheticJobConfig jobCon
+fig, ISyntheticJobInstanceConfig instanceConfig, String assemblyFolder, Region region, Nullable`1 podId)
+   at Microsoft.Azure.Geneva.Synthetics.RunSynthetics.RunSyntheticJob.<RunSyntheticJobLocallyAsync>d__1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.Azure.Geneva.Synthetics.RunSynthetics.Program.Main(String[] args)
+
+NORTHAMERICA+v-kristarutz@MININT-F5UHQAH MINGW64 ~/source/repos/TestRunnerSample/Geneva.Synthetics.Tools.RunSynthetics.1.0.1493.1/lib/net472 (redo)
+$ ./RunSynthetics.exe -a "C:\Users\v-kristarutz\source\repos\TestRunnerSample\GenevaLibrary\bin\Debug" -c "C:\Users\v-kristarutz\source\repos\TestRunnerSample\GenevaLibrary\demosynthetic.json" -j GenevaLibrary -i "HelloWorld" --debug true
+Attach debugger to process name: RunSynthetics and Id: 18576
+Debugger attached
+Warning: Assembly binding redirects mismatch. Please copy assembly bindings from: "C:\Users\v-kristarutz\source\repos\TestRunnerSample\Ge
+nevaLibrary\bin\Debug\GenevaLibrary.dll.config", and merge them with the existing binding redirects at: "C:\Users\v-kristarutz\source\rep
+os\TestRunnerSample\Geneva.Synthetics.Tools.RunSynthetics.1.0.1493.1\lib\net472\RunSynthetics.exe.config" to avoid any errors in executio
+n.
+The logging instrumentation key is Microsoft.Geneva.OneDS
+JobName: GenevaLibrary, InstanceNamePrefix: HelloWorld, Region: USSouthCentral
+{"name":"AppTraces","time":"2021-02-11T23:32:59.0397203Z","tags":{"ai.cloud.roleInstance":"MININT-F5UHQAH","ai.operation.id":"0c1d8b0e77d
+e439197c83c981ad596b8","ai.operation.parentId":"b279c24af3c61f4f","ai.operation.name":"SyntheticJobInstanceRunAsync","ai.operation.synthe
+ticSource":"GenevaSynthetics","ai.internal.sdkVersion":"dotnet:2.14.0-17971"},"data":{"baseType":"MessageData","baseData":{"ver":2,"messa
+ge":"Hello World!","severityLevel":"Information","properties":{"JobGroupName":"GenevaLibrary","Region":"USSouthCentral","InstanceName":"H
+elloWorld_USSouthCentral","JobName":"GenevaLibrary","InstanceNamePrefix":"HelloWorld","Environment":"local"}}}}
+{"name":"AppRequests","time":"2021-02-11T23:32:59.0336019Z","tags":{"ai.cloud.roleInstance":"MININT-F5UHQAH","ai.operation.id":"0c1d8b0e7
+7de439197c83c981ad596b8","ai.operation.name":"SyntheticJobInstanceRunAsync","ai.operation.syntheticSource":"GenevaSynthetics","ai.interna
+l.sdkVersion":"dotnet:2.14.0-17971","ai.internal.nodeName":"MININT-F5UHQAH"},"data":{"baseType":"RequestData","baseData":{"ver":2,"id":"b
+279c24af3c61f4f","name":"SyntheticJobInstanceRunAsync","duration":"00:00:00.2839625","success":true,"responseCode":"200","properties":{"J
+obGroupName":"GenevaLibrary","Region":"USSouthCentral","InstanceName":"HelloWorld_USSouthCentral","JobName":"GenevaLibrary","InstanceName
+Prefix":"HelloWorld","Environment":"local"}}}}
+{"name":"AppMetrics","time":"2021-02-11T23:32:58.0000000Z","tags":{"ai.cloud.roleInstance":"MININT-F5UHQAH","ai.operation.syntheticSource
+":"GenevaSynthetics","ai.internal.sdkVersion":"m-agg2:2.14.0-17971"},"data":{"baseType":"MetricData","baseData":{"ver":2,"metrics":[{"nam
+e":"TestMetric","kind":"Aggregation","value":1,"count":1,"min":1,"max":1,"stdDev":0}],"properties":{"JobGroupName":"GenevaLibrary","Regio
+n":"USSouthCentral","TestDimension":"DimensionValue","InstanceName":"HelloWorld_USSouthCentral","JobName":"GenevaLibrary","_MS.Aggregatio
+nIntervalMs":"1000","InstanceNamePrefix":"HelloWorld","Environment":"local"}}}}
+Synthetic job ran successfully
+
+
+NORTHAMERICA+v-kristarutz@MININT-F5UHQAH MINGW64 ~/source/repos/TestRunnerSample/Geneva.Synthetics.Tools.RunSynthetics.1.0.1493.1/lib/net472 (redo)
+$ ./RunSynthetics.exe -a "C:\Users\v-kristarutz\source\repos\TestRunnerSample\GenevaLibrary\bin\Debug" -c "C:\Users\v-kristarutz\source\repos\TestRunnerSample\GenevaLibrar\demosynthetic.json" -j GenevaLibrary -i "HelloWorld" --debug true
+Attach debugger to process name: RunSynthetics and Id: 9444
+Debugger attached
+Warning: Assembly binding redirects mismatch. Please copy assembly bindings from: "C:\Users\v-kristarutz\source\repos\TestRunnerSample\GenevaLibrary\bin\Debug\GenevaLibrar
+.dll.config", and merge them with the existing binding redirects at: "C:\Users\v-kristarutz\source\repos\TestRunnerSample\Geneva.Synthetics.Tools.RunSynthetics.1.0.1493.1\
+ib\net472\RunSynthetics.exe.config" to avoid any errors in execution.
+The logging instrumentation key is Microsoft.Geneva.OneDS
+JobName: GenevaLibrary, InstanceNamePrefix: HelloWorld, Region: USSouthCentral
+{"name":"AppTraces","time":"2021-02-11T23:35:29.5418876Z","tags":{"ai.cloud.roleInstance":"MININT-F5UHQAH","ai.operation.id":"93b35b1297bd4f5991675f88d1f06a79","ai.operati
+n.parentId":"be2b21ebddc2c947","ai.operation.name":"SyntheticJobInstanceRunAsync","ai.operation.syntheticSource":"GenevaSynthetics","ai.internal.sdkVersion":"dotnet:2.14.0
+17971"},"data":{"baseType":"MessageData","baseData":{"ver":2,"message":"Hello World!","severityLevel":"Information","properties":{"JobGroupName":"GenevaLibrary","Region":"
+SSouthCentral","InstanceName":"HelloWorld_USSouthCentral","JobName":"GenevaLibrary","InstanceNamePrefix":"HelloWorld","Environment":"local"}}}}
+{"name":"AppRequests","time":"2021-02-11T23:35:29.5342153Z","tags":{"ai.cloud.roleInstance":"MININT-F5UHQAH","ai.operation.id":"93b35b1297bd4f5991675f88d1f06a79","ai.opera
+ion.name":"SyntheticJobInstanceRunAsync","ai.operation.syntheticSource":"GenevaSynthetics","ai.internal.sdkVersion":"dotnet:2.14.0-17971","ai.internal.nodeName":"MININT-F5
+HQAH"},"data":{"baseType":"RequestData","baseData":{"ver":2,"id":"be2b21ebddc2c947","name":"SyntheticJobInstanceRunAsync","duration":"00:00:00.2446334","success":true,"res
+onseCode":"200","properties":{"JobGroupName":"GenevaLibrary","Region":"USSouthCentral","InstanceName":"HelloWorld_USSouthCentral","JobName":"GenevaLibrary","InstanceNamePr
+fix":"HelloWorld","Environment":"local"}}}}
+{"name":"AppMetrics","time":"2021-02-11T23:35:29.0000000Z","tags":{"ai.cloud.roleInstance":"MININT-F5UHQAH","ai.operation.syntheticSource":"GenevaSynthetics","ai.internal.
+dkVersion":"m-agg2:2.14.0-17971"},"data":{"baseType":"MetricData","baseData":{"ver":2,"metrics":[{"name":"TestMetric","kind":"Aggregation","value":1,"count":1,"min":1,"max
+:1,"stdDev":0}],"properties":{"JobGroupName":"GenevaLibrary","Region":"USSouthCentral","TestDimension":"DimensionValue","InstanceName":"HelloWorld_USSouthCentral","JobName
+:"GenevaLibrary","_MS.AggregationIntervalMs":"0","InstanceNamePrefix":"HelloWorld","Environment":"local"}}}}
+Synthetic job ran successfully
+
+
+NORTHAMERICA+v-kristarutz@MININT-F5UHQAH MINGW64 ~/source/repos/TestRunnerSample/Geneva.Synthetics.Tools.RunSynthetics.1.0.1493.1/lib/net472 (redo)
+$ ./RunSynthetics.exe -a "C:\Users\v-kristarutz\source\repos\TestRunnerSample\GenevaLibrary\bin\Debug" -c "C:\Users\v-kristarutz\source\repos\TestRunnerSample\GenevaLibrar\demosynthetic.json" -j GenevaLibrary -i "HelloWorld" --debug true
+Attach debugger to process name: RunSynthetics and Id: 1388
+Debugger attached
+Warning: Assembly binding redirects mismatch. Please copy assembly bindings from: "C:\Users\v-kristarutz\source\repos\TestRunnerSample\GenevaLibrary\bin\Debug\GenevaLibrar
+.dll.config", and merge them with the existing binding redirects at: "C:\Users\v-kristarutz\source\repos\TestRunnerSample\Geneva.Synthetics.Tools.RunSynthetics.1.0.1493.1\
+ib\net472\RunSynthetics.exe.config" to avoid any errors in execution.
+The logging instrumentation key is Microsoft.Geneva.OneDS
+JobName: GenevaLibrary, InstanceNamePrefix: HelloWorld, Region: USSouthCentral
+{"name":"AppTraces","time":"2021-02-11T23:37:43.0255092Z","tags":{"ai.cloud.roleInstance":"MININT-F5UHQAH","ai.operation.id":"425348d9fa1e4f28b1e94d4252059a05","ai.operati
+n.parentId":"1c0356efd627fd4e","ai.operation.name":"SyntheticJobInstanceRunAsync","ai.operation.syntheticSource":"GenevaSynthetics","ai.internal.sdkVersion":"dotnet:2.14.0
+17971"},"data":{"baseType":"MessageData","baseData":{"ver":2,"message":"Hello World!","severityLevel":"Information","properties":{"JobGroupName":"GenevaLibrary","Region":"
+SSouthCentral","InstanceName":"HelloWorld_USSouthCentral","JobName":"GenevaLibrary","InstanceNamePrefix":"HelloWorld","Environment":"local"}}}}
+{"name":"AppRequests","time":"2021-02-11T23:37:43.0179995Z","tags":{"ai.cloud.roleInstance":"MININT-F5UHQAH","ai.operation.id":"425348d9fa1e4f28b1e94d4252059a05","ai.opera
+ion.name":"SyntheticJobInstanceRunAsync","ai.operation.syntheticSource":"GenevaSynthetics","ai.internal.sdkVersion":"dotnet:2.14.0-17971","ai.internal.nodeName":"MININT-F5
+HQAH"},"data":{"baseType":"RequestData","baseData":{"ver":2,"id":"1c0356efd627fd4e","name":"SyntheticJobInstanceRunAsync","duration":"00:00:00.2799111","success":true,"res
+onseCode":"200","properties":{"JobGroupName":"GenevaLibrary","Region":"USSouthCentral","InstanceName":"HelloWorld_USSouthCentral","JobName":"GenevaLibrary","InstanceNamePr
+fix":"HelloWorld","Environment":"local"}}}}
+{"name":"AppMetrics","time":"2021-02-11T23:37:42.0000000Z","tags":{"ai.cloud.roleInstance":"MININT-F5UHQAH","ai.operation.syntheticSource":"GenevaSynthetics","ai.internal.
+dkVersion":"m-agg2:2.14.0-17971"},"data":{"baseType":"MetricData","baseData":{"ver":2,"metrics":[{"name":"TestMetric","kind":"Aggregation","value":1,"count":1,"min":1,"max
+:1,"stdDev":0}],"properties":{"JobGroupName":"GenevaLibrary","Region":"USSouthCentral","TestDimension":"DimensionValue","InstanceName":"HelloWorld_USSouthCentral","JobName
+:"GenevaLibrary","_MS.AggregationIntervalMs":"1000","InstanceNamePrefix":"HelloWorld","Environment":"local"}}}}
+Synthetic job ran successfully
+
+
+NORTHAMERICA+v-kristarutz@MININT-F5UHQAH MINGW64 ~/source/repos/TestRunnerSample/Geneva.Synthetics.Tools.RunSynthetics.1.0.1493.1/lib/net472 (redo)
+$ ./RunSynthetics.exe -a "C:\Users\v-kristarutz\source\repos\TestRunnerSample\GenevaLibrary\bin\Debug" -c "C:\Users\v-kristarutz\source\repos\TestRunnerSample\GenevaLibrar\demosynthetic.json" -j GenevaLibrary -i "HelloWorld" --debug true
+Attach debugger to process name: RunSynthetics and Id: 30388
+Debugger attached
+Warning: Assembly binding redirects mismatch. Please copy assembly bindings from: "C:\Users\v-kristarutz\source\repos\TestRunnerSample\GenevaLibrary\bin\Debug\GenevaLibrar
+.dll.config", and merge them with the existing binding redirects at: "C:\Users\v-kristarutz\source\repos\TestRunnerSample\Geneva.Synthetics.Tools.RunSynthetics.1.0.1493.1\
+ib\net472\RunSynthetics.exe.config" to avoid any errors in execution.
+The logging instrumentation key is Microsoft.Geneva.OneDS
+JobName: GenevaLibrary, InstanceNamePrefix: HelloWorld, Region: USSouthCentral
+**********************************************************************
+**********************************************************************
+{"name":"AppTraces","time":"2021-02-11T23:38:45.6290190Z","tags":{"ai.cloud.roleInstance":"MININT-F5UHQAH","ai.operation.id":"b6aa1227c55540239f022bf90943aa6b","ai.operati
+n.parentId":"1a264048ebe8e04e","ai.operation.name":"SyntheticJobInstanceRunAsync","ai.operation.syntheticSource":"GenevaSynthetics","ai.internal.sdkVersion":"dotnet:2.14.0
+17971"},"data":{"baseType":"MessageData","baseData":{"ver":2,"message":"Hello World!","severityLevel":"Information","properties":{"JobGroupName":"GenevaLibrary","Region":"
+SSouthCentral","InstanceName":"HelloWorld_USSouthCentral","JobName":"GenevaLibrary","InstanceNamePrefix":"HelloWorld","Environment":"local"}}}}
+{"name":"AppRequests","time":"2021-02-11T23:38:45.6195965Z","tags":{"ai.cloud.roleInstance":"MININT-F5UHQAH","ai.operation.id":"b6aa1227c55540239f022bf90943aa6b","ai.opera
+ion.name":"SyntheticJobInstanceRunAsync","ai.operation.syntheticSource":"GenevaSynthetics","ai.internal.sdkVersion":"dotnet:2.14.0-17971","ai.internal.nodeName":"MININT-F5
+HQAH"},"data":{"baseType":"RequestData","baseData":{"ver":2,"id":"1a264048ebe8e04e","name":"SyntheticJobInstanceRunAsync","duration":"00:00:00.3218104","success":true,"res
+onseCode":"200","properties":{"JobGroupName":"GenevaLibrary","Region":"USSouthCentral","InstanceName":"HelloWorld_USSouthCentral","JobName":"GenevaLibrary","InstanceNamePr
+fix":"HelloWorld","Environment":"local"}}}}
+{"name":"AppMetrics","time":"2021-02-11T23:38:45.0000000Z","tags":{"ai.cloud.roleInstance":"MININT-F5UHQAH","ai.operation.syntheticSource":"GenevaSynthetics","ai.internal.
+dkVersion":"m-agg2:2.14.0-17971"},"data":{"baseType":"MetricData","baseData":{"ver":2,"metrics":[{"name":"TestMetric","kind":"Aggregation","value":1,"count":1,"min":1,"max
+:1,"stdDev":0}],"properties":{"JobGroupName":"GenevaLibrary","Region":"USSouthCentral","TestDimension":"DimensionValue","InstanceName":"HelloWorld_USSouthCentral","JobName
+:"GenevaLibrary","_MS.AggregationIntervalMs":"0","InstanceNamePrefix":"HelloWorld","Environment":"local"}}}}
+Synthetic job ran successfully
+
+
+NORTHAMERICA+v-kristarutz@MININT-F5UHQAH MINGW64 ~/source/repos/TestRunnerSample/Geneva.Synthetics.Tools.RunSynthetics.1.0.1493.1/lib/net472 (redo)
+$ ^C
+
+NORTHAMERICA+v-kristarutz@MININT-F5UHQAH MINGW64 ~/source/repos/TestRunnerSample/Geneva.Synthetics.Tools.RunSynthetics.1.0.1493.1/lib/net472 (redo)
+$
