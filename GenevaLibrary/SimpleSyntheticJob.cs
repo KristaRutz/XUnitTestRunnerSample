@@ -44,10 +44,9 @@ namespace GenevaLibrary
             {
                 logger.LogInformation("Log entry from inside using statement");
 
-                TelemetryClient.TrackTrace("Hello World!", SeverityLevel.Information);
+                TelemetryClient.TrackTrace("Hello from Ev2!", SeverityLevel.Information);
 
                 // Emit metrics for alerting through Geneva Monitors.
-                TestMetric.TrackValue(1, "DimensionValue");
                 TestMetric.TrackValue(1, "DimensionValue");
 
                 Console.WriteLine("-------------------------------------------------------");

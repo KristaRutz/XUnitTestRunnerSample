@@ -1,0 +1,15 @@
+{
+  "$schema": "..\\..\\..\\..\\..\\schemas\\ScopeBindings",
+  "contentVersion": "0.0.0.1",
+  "scopeBindings": [
+    {
+      "scopeTagName": "SampleScope",
+      "bindings": [
+        {
+          "find": "__Regions__",
+          "replaceWith": "EuropeWest"
+        }
+      ]
+    }
+  ]
+}
