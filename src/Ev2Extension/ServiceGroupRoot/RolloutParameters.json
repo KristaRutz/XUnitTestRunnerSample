@@ -1,0 +1,48 @@
+{
+  "$schema": "..\\..\\..\\..\\..\\schemas\\RolloutParameters",
+  "contentVersion": "1.0.0.0",
+  "extensions": [
+    {
+      "name": "Deploy",
+      "type": "Microsoft.Geneva.Synthetics/JobGroup",
+      "version": "2020-10-01",
+      "connectionProperties": {
+        "maxExecutionTime": "PT24H",
+        "authentication": {
+          "type": "CertificateAuthentication",
+          "reference": {
+            "provider": "AzureKeyVault",
+            "parameters": {
+              "secretId": "https://onecertgenevasynthetics.vault.azure.net/secrets/ev2certgenevakeyvaulttestonecertgbl/05489c306b8b4ba3b4199395d4666c96"
+            }
+          }
+        }
+      },
+      "payloadProperties": {
+        "Account": {
+          "value": "AzureCertificateService"
+        },
+        "JobGroupName": {
+          "value": "GenevaLibrary"
+        },
+        "ConfigPath": {
+          "reference": {
+            //Path can be relative to ServiceGroupRoot folder or an absolute path.
+            "path": "C:\\Users\\v-kristarutz\\source\\repos\\TestRunnerSample\\GenevaLibrary\\demosynthetic.json",
+            // Use enableScopeTagBindings if you need to use scope bindings in the jobgroup.config
+            "enableScopeTagBindings": "true"
+          }
+        },
+        "PackagePath": {
+          "reference": {
+            //Path can be relative to ServiceGroupRoot folder or an absolute path.
+            "path": "C:\\Users\\v-kristarutz\\source\\repos\\TestRunnerSample\\GenevaLibrary\\bin\\Debug\\ZippedPackageBinaries"
+          }
+        },
+        "Deleted": {
+          "value": false
+        }
+      }
+    }
+  ]
+}

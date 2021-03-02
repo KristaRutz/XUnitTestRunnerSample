@@ -1,0 +1,29 @@
+{
+  "$schema": "..\\..\\..\\..\\..\\schemas\\RolloutSpec",
+  "rolloutMetadata": {
+    "serviceModelPath": "ServiceModel.json",
+    "scopeBindingsPath": "ScopeBindings.json",
+    "name": "Sample Synthetics 1.0.1",
+    "rolloutType": "Major",
+    "buildSource": {
+      "parameters": {
+        "versionFile": "buildver.txt"
+      }
+    },
+    "notification": {
+      "email": {
+        "to": "v-kristarutz@microsoft.com"
+      }
+    }
+  },
+  "orchestratedsteps": [
+    {
+      "name": "SampleDeployStep",
+      "targetType": "ServiceResource",
+      "targetName": "SampleSyntheticsResourceInstance",
+      "actions": [
+        "Extension/Deploy"
+      ]
+    }
+  ]
+}

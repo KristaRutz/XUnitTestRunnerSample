@@ -1,0 +1,44 @@
+{
+  "$schema": "..\\..\\..\\..\\..\\schemas\\ServiceModel",
+  "serviceMetadata": {
+    "serviceGroup": "SampleSyntheticsService",
+    "environment": "Test"
+  },
+  "serviceResourceGroupDefinitions": [
+    {
+      "name": "SampleSyntheticsServiceGroup",
+      "serviceResourceDefinitions": [
+        {
+          "name": "SampleSyntheticsResource",
+          "composedOf": {
+            "extension": {
+              "rolloutParametersPath": "RolloutParameters.json",
+              "allowedTypes": [
+                { "Type": "Microsoft.Geneva.Synthetics/JobGroup" }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "serviceResourceGroups": [
+    {
+      "azureResourceGroupName": "OneCert-GenevaSynthetics", //This value is not related to your synthetics deployment, but necesssary for the rollout.
+      "location": "West US", //This is rollout deployment location. This is not related to the Synthetics deployment region
+      "instanceOf": "SampleSyntheticsServiceGroup",
+      "azureSubscriptionId": "25d4a0b2-7b2a-48f4-9376-c5434c49599a", //This subscription id is mandatory in Ev2 Rollout, and is not related to synthetics deployment
+      "scopeTags": [
+        {
+          "name": "SampleScope"
+        }
+      ],
+      "serviceResources": [
+        {
+          "name": "SampleSyntheticsResourceInstance",
+          "instanceOf": "SampleSyntheticsResource"
+        }
+      ]
+    }
+  ]
+}
