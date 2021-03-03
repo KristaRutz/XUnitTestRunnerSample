@@ -24,7 +24,7 @@ namespace GenevaLibrary
         public SimpleSyntheticJob(ISyntheticsEnvironment environment)
         {
             Environment = environment ?? throw new ArgumentNullException(nameof(environment));
-            TelemetryClient = SyntheticsTelemetryClientCache.Instance.GetOrAdd(environment, metricNamespace: "GenevaSyntheticsSamples");
+            TelemetryClient = SyntheticsTelemetryClientCache.Instance.GetOrAdd(environment, metricNamespace: "ACSMsAzGsProd");
             TestMetric = TelemetryClient.GetMetric(metricId: "TestMetric", dimension1Name: "TestDimension");
             ILoggerFactory loggerFactory = new LoggerFactory();
             logger = loggerFactory.CreateLogger<SimpleSyntheticJob>();
@@ -47,12 +47,12 @@ namespace GenevaLibrary
                 TelemetryClient.TrackTrace("Hello from Ev2!", SeverityLevel.Information);
 
                 // Emit metrics for alerting through Geneva Monitors.
-                TestMetric.TrackValue(1, "DimensionValue");
+                TestMetric.TrackValue(10, "DimensionValue");
 
                 Console.WriteLine("-------------------------------------------------------");
 
                 // Run custom test runner - with hard coded test .dll
-                TestRunner.Run(@"C:\Users\v-kristarutz\source\repos\TestRunnerSample\XUnitTestProject\bin\Debug\net472\XUnitTestProject.dll", TelemetryClient);
+                // TestRunner.Run(@"C:\Users\v-kristarutz\source\repos\TestRunnerSample\XUnitTestProject\bin\Debug\net472\XUnitTestProject.dll", TelemetryClient);
                 Console.WriteLine("-------------------------------------------------------");
                 
 
