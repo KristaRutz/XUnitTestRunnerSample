@@ -36,7 +36,7 @@
         "PackagePath": {
           "reference": {
             //Path can be relative to ServiceGroupRoot folder or an absolute path.
-            "path": "C:\\Users\\v-kristarutz\\source\\repos\\TestRunnerSample\\GenevaLibrary\\bin\\Debug\\ZippedPackageBinaries"
+            "path": "bin\\SampleSyntheticPackage.zip"
           }
         },
         "Deleted": {

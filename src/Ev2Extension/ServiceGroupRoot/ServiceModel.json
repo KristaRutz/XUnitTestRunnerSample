@@ -2,7 +2,7 @@
   "$schema": "..\\..\\..\\..\\..\\schemas\\ServiceModel",
   "serviceMetadata": {
     "serviceGroup": "SampleSyntheticsService",
-    "environment": "Test"
+    "environment": "Prod"
   },
   "serviceResourceGroupDefinitions": [
     {
